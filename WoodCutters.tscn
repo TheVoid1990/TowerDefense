@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://btlua6rxen3ef"]
+
+[ext_resource type="PackedScene" uid="uid://cp6lp8l3xv8p3" path="res://GLTFs/WoodCutters.glb" id="1_y3dir"]
+
+[node name="WoodCutters" type="Node3D"]
+
+[node name="WoodCutters" parent="." instance=ExtResource("1_y3dir")]
