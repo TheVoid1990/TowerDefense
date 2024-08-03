@@ -37,6 +37,16 @@ public partial class Camera3D : Godot.Camera3D
 			direction.Z -= 1;
 		}
 
+		if(Input.IsActionPressed("move_camera_up"))
+		{
+			direction.Y += 1;
+		}
+		if (Input.IsActionPressed("move_camera_down"))
+		{
+			direction.Y -= 1;
+		}
+
+
 		if (Input.IsActionPressed("rotate_left"))
 		{
 			RotateY(RotationSpeed);  // Rotate left around the Y-axis
